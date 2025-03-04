@@ -6,26 +6,25 @@
 
 A continuacion se muestra el primer y unico  ejercicio realizado en clase:
 
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=G(s)=2s^2-4/(s+1)(s-2)(s-3) = A/s+1 + B/s-2 + C/s-3
- =A(s-2)(s-3)+B(s+1)(s-3)+C(s+1)(s-2)= 2s^2-4
- =A(s^2-5s+6)+B(s^2-2s-3)+C(s^2-s-2)= 2s^2-4
-A+B+C = 2
--5A-2B-C = 0
-6A-3B-2C = -4
-"><img src="http://www.alciro.org/cgi/tex.cgi?G(s)=2s^2-4/(s+1)(s-2)(s-3) = A/s+1 + B/s-2 + C/s-3
- =A(s-2)(s-3)+B(s+1)(s-3)+C(s+1)(s-2)= 2s^2-4
- =A(s^2-5s+6)+B(s^2-2s-3)+C(s^2-s-2)= 2s^2-4
-A+B+C = 2
--5A-2B-C = 0
-6A-3B-2C = -4
-" title="G(s)=2s^2-4/(s+1)(s-2)(s-3) = A/s+1 + B/s-2 + C/s-3
- =A(s-2)(s-3)+B(s+1)(s-3)+C(s+1)(s-2)= 2s^2-4
- =A(s^2-5s+6)+B(s^2-2s-3)+C(s^2-s-2)= 2s^2-4
-A+B+C = 2
--5A-2B-C = 0
-6A-3B-2C = -4
-" border="0" /></a>
+$$ G(s) = \frac{2s^2 - 4}{(s+1)(s-2)(s-3)} $$
 
+Queremos descomponerla en fracciones parciales:
+
+$$ G(s) = \frac{A}{s+1} + \frac{B}{s-2} + \frac{C}{s-3} $$
+
+Igualando términos:
+
+$$ A(s-2)(s-3) + B(s+1)(s-3) + C(s+1)(s-2) = 2s^2 - 4 $$
+
+Desarrollando los productos:
+
+$$ A(s^2 - 5s + 6) + B(s^2 - 2s - 3) + C(s^2 - s - 2) = 2s^2 - 4 $$
+
+Igualando coeficientes:
+
+$$ A + B + C = 2 $$
+$$ -5A - 2B - C = 0 $$
+$$ 6A - 3B - 2C = -4 $$
 
 
 
