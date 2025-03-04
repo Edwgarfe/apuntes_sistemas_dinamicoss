@@ -26,6 +26,38 @@ $$ A + B + C = 2 $$
 $$ -5A - 2B - C = 0 $$
 $$ 6A - 3B - 2C = -4 $$
 
+Dado que:
+
+$$ A = 2 - B - C $$
+
+Sustituyendo en la ecuación original:
+
+$$ -5(2 - B - C) - 2B - C = 0 $$
+
+Simplificando:
+
+$$ -10 + 3B + 4C = 0 $$
+$$ C = \frac{10 - 3B}{4} $$
+
+Sustituyendo \( C \) en la ecuación:
+
+$$ 6(2 - B - C) - 3B - 2\left( \frac{10 - 3B}{4} \right) = -4 $$
+$$ 12 - 6B - \left( \frac{60 - 18B}{4} \right) - 3B + \left( \frac{6B}{4} \right) = -4 $$
+$$ 12 - 6B - 15 - 5 - 6B + \left( \frac{18B}{4} \right) - 3B + \left( \frac{6B}{4} \right) = -4 $$
+
+Resolviendo para \( B \):
+
+$$ B = -\frac{4}{3} $$
+
+Sustituyendo \( B \) en la ecuación de \( C \):
+
+$$ C = 10 - \frac{3(-4/3)}{4} = \frac{14}{4} = \frac{7}{2} $$
+
+Sustituyendo \( B \) y \( C \) en la ecuación de \( A \):
+
+$$ A = 2 - \frac{7}{2} - \left(-\frac{4}{3}\right) = 2 - 7 + \frac{4}{6} = -\frac{1}{6} $$
+
+
 
 
 
