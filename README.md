@@ -108,13 +108,25 @@ Escribimos la fracción original como una suma de fracciones parciales:
 
 $$\frac{7s + 9}{(s-1)(s+2)} = \frac{A}{s-1} + \frac{B}{s+2}$$
 
-$$7x + 9 = A(x + 2) + B(x - 1)$$
-
-$$7x + 9 = Ax + 2A + Bx - B$$ $$7x + 9 = (A + B)x + (2A - B)$$
-
-Comparamos coeficientes: 
+$$7s + 9 = A(s + 2) + B(s - 1)$$
+$$7s + 9 = As + 2A + Bs - B$$ 
+$$7s + 9 = (A + B)s + (2A - B)$$
 
 $$A + B = 7$$ 
 $$2A - B = 9$$
+
+De la primera ecuacion: 
+
+$$B = 7 -A$$
+
+Sustituyendo en la segunda:
+
+$$2A - 7 - A = 9$$
+$$2A -7 +A = 9$$
+$$3A = 16$$
+
+$$A = \frac{16}{3}$$
+
+
 
 
