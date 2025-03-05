@@ -57,6 +57,86 @@ Sustituyendo \( B \) y \( C \) en la ecuación de \( A \):
 
 $$ A = 2 - \frac{7}{2} - \left(-\frac{4}{3}\right) = 2 - 7 + \frac{4}{6} = -\frac{1}{6} $$
 
+#Ejercicios 
+
+### 📚 1 Ejercicio
+Encuentra las fracciones parciales de la siguiente expresión: $$\frac{5x + 3}{(x+1)(x-2)}$$
+
+Solución:
+
+Escribimos la fracción original como una suma de fracciones parciales: $$\frac{5x + 3}{(x+1)(x-2)} = \frac{A}{x+1} + \frac{B}{x-2}$$
+
+Multiplicamos ambos lados por 
+(
+𝑥
++
+1
+)
+(
+𝑥
+−
+2
+)
+ para eliminar los denominadores: $$5x + 3 = A(x - 2) + B(x + 1)$$
+
+Expande y agrupa términos: $$5x + 3 = Ax - 2A + Bx + B$$ $$5x + 3 = (A + B)x + (B - 2A)$$
+
+Comparamos coeficientes: $$A + B = 5$$ $$B - 2A = 3$$
+
+Resolvemos el sistema de ecuaciones:
+
+De la primera ecuación: 
+𝐵
+=
+5
+−
+𝐴
+
+Sustituyendo en la segunda: 
+5
+−
+𝐴
+−
+2
+𝐴
+=
+3
+ 
+⇒
+−
+3
+𝐴
+=
+−
+2
+ 
+⇒
+𝐴
+=
+−
+1
+
+Sustituyendo 
+𝐴
+ en 
+𝐵
+=
+5
+−
+𝐴
+: 
+𝐵
+=
+5
+−
+(
+−
+1
+)
+=
+6
+
+Por lo tanto, las fracciones parciales son: $$\frac{5x + 3}{(x+1)(x-2)} = \frac{-1}{x+1} + \frac{6}{x-2}$$
 
 
 
