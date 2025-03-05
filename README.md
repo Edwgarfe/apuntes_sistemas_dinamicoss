@@ -61,13 +61,17 @@ $$ A = 2 - \frac{7}{2} - \left(-\frac{4}{3}\right) = 2 - 7 + \frac{4}{6} = -\fra
 
 ### 📚 1 Ejercicio
 Encuentra las fracciones parciales de la siguiente expresión: 
-$$\frac{5x + 3}{(x+1)(x-2)}$$
+
+$$  \frac{5s + 3}{(s+1)(s-2)}  $$
 
 Solución:
 
 Escribimos la fracción original como una suma de fracciones parciales: 
-$$\frac{5x + 3}{(x+1)(x-2)} = \frac{A}{x+1} + \frac{B}{x-2}$$
+
+$$ \frac{5s + 3}{(s+1)(s-2)} = \frac{A}{s+1} + \frac{B}{s-2} $$
+
 Multiplicamos ambos lados por 
+
 (
 𝑥
 +
