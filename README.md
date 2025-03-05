@@ -127,6 +127,11 @@ $$3A = 16$$
 
 $$A = \frac{16}{3}$$
 
+Sustituyendo A en B:
+
+$$B = 7 - A : B = 7 - \frac{16}{3} =  \frac{21}{3} - \frac{16}{3} =  \frac{5}{3}
+$$B = \frac{5}{3}$$
+
 
 
 
