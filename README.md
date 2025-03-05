@@ -94,6 +94,20 @@ $$ B = 5 - A : B = 5 - (-1) = 6 $$
 
 $$ B = 6 $$
 
-$$\frac{5x + 3}{(x+1)(x-2)} = \frac{-1}{x+1} + \frac{6}{x-2}$$
+$$\frac{5s + 3}{(s+1)(s-2)} = \frac{-1}{s+1} + \frac{6}{s-2}$$
+
+### 📚 2 Ejercicio
+
+Encuentra las fracciones parciales de la siguiente expresión: $$\frac{7x + 9}{(x-1)(x+2)}$$
+
+Solución:
+
+Escribimos la fracción original como una suma de fracciones parciales: $$\frac{7x + 9}{(x-1)(x+2)} = \frac{A}{x-1} + \frac{B}{x+2}$$
+
+ para eliminar los denominadores: $$7x + 9 = A(x + 2) + B(x - 1)$$
+
+Expande y agrupa términos: $$7x + 9 = Ax + 2A + Bx - B$$ $$7x + 9 = (A + B)x + (2A - B)$$
+
+Comparamos coeficientes: $$A + B = 7$$ $$2A - B = 9$$
 
 
