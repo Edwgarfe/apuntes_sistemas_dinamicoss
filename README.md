@@ -4,7 +4,7 @@
 ### Descomposicion en Fracciones Parciales
 >🔑La descomposición en fracciones parciales es un método utilizado en cálculo y álgebra para expresar una fracción racional como la suma de fracciones más simples, cuyos denominadores son factores del denominador original.
 
-A continuacion se muestra el primer y unico  ejercicio realizado en clase:
+A continuacion se muestra el primer ejercicio realizado en clase, donde se muestra el 1 caso de fracciones parciales(raices reales y simples):
 
 $$ G(s) = \frac{2s^2 - 4}{(s+1)(s-2)(s-3)} $$
 
