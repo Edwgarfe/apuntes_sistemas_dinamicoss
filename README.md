@@ -129,8 +129,10 @@ $$A = \frac{16}{3}$$
 
 Sustituyendo A en B:
 
-$$B = 7 - A : B = 7 - \frac{16}{3} =  \frac{21}{3} - \frac{16}{3} =  \frac{5}{3}
+$$B = 7 - A : B = 7 - \frac{16}{3} =  \frac{21}{3} - \frac{16}{3} =  \frac{5}{3}$$
 $$B = \frac{5}{3}$$
+
+$$\frac{7s + 9}{(s-1)(s+2)} = \frac{\frac{16}{3}}{s-1} + \frac{\frac{5}{3}}{s+2}$$
 
 
 
