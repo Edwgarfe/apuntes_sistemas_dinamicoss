@@ -70,5 +70,19 @@ Escribimos la fracción original como una suma de fracciones parciales:
 
 $$ \frac{5s + 3}{(s+1)(s-2)} = \frac{A}{s+1} + \frac{B}{s-2} $$
 
-$$ 5x + 3 = A(x - 2) + B(x + 1) $$
+$$ 5s + 3 = A(s - 2) + B(s + 1) $$
+
+$$ A + B = 5 $$ 
+$$ B - 2A = 3 $$
+
+De la primera ecuación
+$$ B = 5 - A $$
+Sustituyendo en la segunda
+$$ 5 - A - 2A= 3 $$
+$$ -3A = -2 $$
+$$ 2 -3 = A $$
+$$ -1 = A $$
+
+$$ A = -1 $$
+
 
