@@ -76,8 +76,11 @@ $$ A + B = 5 $$
 $$ B - 2A = 3 $$
 
 De la primera ecuación
+
 $$ B = 5 - A $$
+
 Sustituyendo en la segunda
+
 $$ 5 - A - 2A= 3 $$
 $$ -3A = -2 $$
 $$ 2 -3 = A $$
