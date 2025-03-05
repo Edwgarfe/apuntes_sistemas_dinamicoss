@@ -134,6 +134,17 @@ $$B = \frac{5}{3}$$
 
 $$\frac{7s + 9}{(s-1)(s+2)} = \frac{\frac{16}{3}}{s-1} + \frac{\frac{5}{3}}{s+2}$$
 
+# 2 CLASE
+
+##Continuacion de fraciones parciales e inicio  transformada inversa de laplace
+
+En esta clase, solucionamos otro ejercicio de fracciones parciales utilizando el método de sustitución. Este nuevo ejercicio tambien es del primer caso de fracciones parciales. Al final, analizamos la tabla de transformadas de Laplace para aplicar la transformada inversa correspondiente a las fracciones parciales definidas en el ejercicio. Este enfoque nos permitió comprender mejor cómo las fracciones parciales se utilizan en el contexto de las transformada inversa de Laplace.
+
+### Transformada inversa de laplace
+>🔑La transformada inversa de Laplace es una herramienta matemática que toma una función en el dominio de la frecuencia (variable "s") y la convierte de vuelta a una función en el dominio del tiempo (variable "t"), permitiendo obtener la solución de una ecuación diferencial en su forma original.
+
+
+
 
 
 
