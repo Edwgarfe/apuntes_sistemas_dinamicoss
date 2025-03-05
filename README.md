@@ -70,17 +70,5 @@ Escribimos la fracción original como una suma de fracciones parciales:
 
 $$ \frac{5s + 3}{(s+1)(s-2)} = \frac{A}{s+1} + \frac{B}{s-2} $$
 
-Multiplicamos ambos lados por 
-
-(
-𝑥
-+
-1
-)
-(
-𝑥
-−
-2
-)
- para eliminar los denominadores: $$5x + 3 = A(x - 2) + B(x + 1)$$
+$$ 5x + 3 = A(x - 2) + B(x + 1) $$
 
