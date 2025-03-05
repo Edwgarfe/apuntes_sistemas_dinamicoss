@@ -57,7 +57,7 @@ Sustituyendo \( B \) y \( C \) en la ecuación de \( A \):
 
 $$ A = 2 - \frac{7}{2} - \left(-\frac{4}{3}\right) = 2 - 7 + \frac{4}{6} = -\frac{1}{6} $$
 
-#Ejercicios 
+# Ejercicios 
 
 ### 📚 1 Ejercicio
 Encuentra las fracciones parciales de la siguiente expresión: 
@@ -98,16 +98,23 @@ $$\frac{5s + 3}{(s+1)(s-2)} = \frac{-1}{s+1} + \frac{6}{s-2}$$
 
 ### 📚 2 Ejercicio
 
-Encuentra las fracciones parciales de la siguiente expresión: $$\frac{7x + 9}{(x-1)(x+2)}$$
+Encuentra las fracciones parciales de la siguiente expresión: 
+
+$$\frac{7s + 9}{(s-1)(s+2)}$$
 
 Solución:
 
-Escribimos la fracción original como una suma de fracciones parciales: $$\frac{7x + 9}{(x-1)(x+2)} = \frac{A}{x-1} + \frac{B}{x+2}$$
+Escribimos la fracción original como una suma de fracciones parciales: 
 
- para eliminar los denominadores: $$7x + 9 = A(x + 2) + B(x - 1)$$
+$$\frac{7s + 9}{(s-1)(s+2)} = \frac{A}{s-1} + \frac{B}{s+2}$$
 
-Expande y agrupa términos: $$7x + 9 = Ax + 2A + Bx - B$$ $$7x + 9 = (A + B)x + (2A - B)$$
+$$7x + 9 = A(x + 2) + B(x - 1)$$
 
-Comparamos coeficientes: $$A + B = 7$$ $$2A - B = 9$$
+$$7x + 9 = Ax + 2A + Bx - B$$ $$7x + 9 = (A + B)x + (2A - B)$$
+
+Comparamos coeficientes: 
+
+$$A + B = 7$$ 
+$$2A - B = 9$$
 
 
