@@ -143,6 +143,11 @@ En esta clase, solucionamos otro ejercicio de fracciones parciales utilizando el
 ### Transformada inversa de laplace
 >🔑La transformada inversa de Laplace es una herramienta matemática que toma una función en el dominio de la frecuencia (variable "s") y la convierte de vuelta a una función en el dominio del tiempo (variable "t"), permitiendo obtener la solución de una ecuación diferencial en su forma original.
 
+A continuacion se muestra el ejercicio realizado en clase:
+
+$$ Y(s) = \frac{6s + 2}{(s+0.5)(s^2+3.4s+2.4)} $$
+
+
 
 
 
