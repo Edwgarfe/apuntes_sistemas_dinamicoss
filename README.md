@@ -147,6 +147,7 @@ A continuacion se muestra el ejercicio realizado en clase:
 
 $$ Y(s) = \frac{6s + 2}{(s+0.5)(s^2+3.4s+2.4)} $$
 $$ \frac{6s+2}{(s+0.5)(s+1)(s+2.4)}= \frac{A}{s+0.5} + \frac{B}{s+1} + \frac{C}{s+2.4}$$
+$$\left| s+1 \right|$$
 
 
 
