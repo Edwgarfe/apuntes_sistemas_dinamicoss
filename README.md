@@ -380,11 +380,30 @@ $$B = \frac{1}{2}$$
 $$G(s) = \frac{1/2}{s+1} + \frac{1/2}{s+3}$$
 
 # 5 CLASE
-$$ G(s) = \frac {2s-3} {(s+2)(s+10^{3})} = \frac {A} {(s+2)} - \frac {B} {(s+10^{3})} - \frac {C} {(s+10^{2})}  - \frac {D} {(s+10)}$$
-$$ A = {s+2 \frac {2s-3}{(s+2)(s+10^{3})} _{s = -2} \frac {2(-2)-3} {(-2)+10^{3})} = \frac {-4-3} {8^{3}}} = \frac {7}{512} $$
-$$ B = {s+10^{3} \frac {2s-3}{(s+2)(s+10^{3})} _{s = -10} \frac {2(-10)-3} {(-10)+2^{2})} = \frac {-20-3} {8}} = \frac {23}{8} $$
-$$ C = (\frac {ds}{d}) \frac {2s-3} {s+2} _{s = -10} (\frac {2(s+2)-1(2s-3)}{(s+2^{2})}) _{s = -10} \frac {-16+23}{64} = \frac {7}{64}$$ 
-$$ D = (\frac {(2-2)(s+2^{2})-2(s+2)(2(s+2)-2s-3)}{s+2^{4}}) _{s = -10} = \frac {-112}{4096}$$
+En esta clase realizamos un ejercicio donde se aclaran dudas
+
+$$G(s) = \frac{2s-3}{(s+2)(s+10^3)} = \frac{A}{(s+2)} - \frac{B}{(s+10^3)} - \frac{C}{(s+10^2)} - \frac{D}{(s+10)}$$
+
+Para resolver A, se multiplica ambos lados de la ecuación por (s+2) y se evalúa en s = -2:
+
+$$A = \left. \frac{(s+2)(2s-3)}{(s+2)(s+10^3)} \right|_{s=-2} = \frac{2(-2)-3}{(-2)+10^3} = \frac{-4-3}{8^3} = \frac{7}{512}$$
+
+Resolución de B
+Para resolver B, se multiplica ambos lados de la ecuación por (s+10^3) y se evalúa en s = -10^3:
+
+$$B = \left. \frac{(s+10^3)(2s-3)}{(s+2)(s+10^3)} \right|_{s=-10^3} = \frac{2(-10^3)-3}{(-10^3)+2^2} = \frac{-20-3}{8} = \frac{23}{8}$$
+
+Resolución de C
+Para resolver C, se utiliza la derivada de la función:
+
+$$C = \left. \frac{d}{ds} \frac{2s-3}{s+2} \right|{s=-10} = \left. \frac{2(s+2)-1(2s-3)}{(s+2)^2} \right|{s=-10} = \frac{-16+23}{64} = \frac{7}{64}$$
+
+Resolución de D
+Para resolver D, se utiliza una fórmula similar a la de C:
+
+$$D = \left. \frac{(2-2)(s+2^2)-2(s+2)(2(s+2)-2s-3)}{s+2^4} \right|_{s=-10} = \frac{-112}{4096}
+
+# Ejercicios
 
 ### 📚 1 Ejercicio
 $$G(s) = \frac{3s-2}{(s+1)(s+10)} = \frac{A}{(s+1)} - \frac{B}{(s+10)}$$
