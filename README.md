@@ -287,4 +287,4 @@ $$ \mathcal{L}^{-1}{Y(s)} = \frac{1}{5}e^{-2t} - \frac{1}{5}\cos(t) + \frac{12}{
 # 4 CLASE 
 Para esta ocasión realizamos un ejercicio acerca de la descomposicion en fracciones parciales de: 
 
-$$ G(s) \frac{s_{2}+2s+3}_{s^{2}+2s+2} \frac{s_{2}+2s+3}_{s^{2}+2s+5} $$
+$$ G(s) = \frac{s_{2}+2s+3} _ {s^{2}+2s+2} \frac{s_{2}+2s+3} _ {s^{2}+2s+5} $$
