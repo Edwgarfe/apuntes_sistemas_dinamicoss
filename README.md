@@ -285,6 +285,19 @@ $$ \mathcal{L}^{-1}{Y(s)} = \frac{1}{5}e^{-2t} - \frac{1}{5}\cos(t) + \frac{12}{
 
 # 3 CLASE (VIRTUAL)
 
+En esta clase comenzamos con un repaso conciso de las funcionalidades básicas de MATLAB, seguido de una demostración práctica sobre cómo calcular la transformada de Laplace utilizando este software. Posteriormente, realizamos un ejercicio de fracciones parciales, enfocándonos en el primer caso y empleando el método simplificado para facilitar el proceso de descomposición
+
+>🔑MATLAB**: Un software matemático que permite realizar cálculos numéricos complejos, visualizar datos y programar algoritmos, ampliamente utilizado en ingeniería y ciencias.
+
+''' syms s t
+F = (s+3)/((s+1)*(s+2)); 
+f = ilaplace(F, t); 
+disp(f); 
+ezplot(f, [0, 10]); 
+'''
+
+
+
 # 4 CLASE 
 Para esta ocasión realizamos un ejercicio acerca de la descomposicion en fracciones parciales de: 
 
