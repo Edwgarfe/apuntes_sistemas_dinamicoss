@@ -347,8 +347,11 @@ $$ \frac {-2+-√4-8}{2} $$
 $$ \frac {-2+-√4}{2} $$
 $$ \frac {-2+-√4i}{2} $$
 $$ -1+-i $$
+Iniciaremos despejando las constantes A,B,C y D, se multiplican ambos lados de la ecuacion por el denominador mas comun 
 $$ {s^{2}+2s+3} = {(As+B)} {(s^{2}+2s+5)} {(Cs+D)} {(s^{2}+2s+2)} $$
+Igualaremos los coeficientes: 
 $$ {s^{2}+2s+3} = {(As^{3}+2As^{2}+5As+Bs^{2}+2Bs+5B+Cs^{3}+2Cs^{2}+Ds^{2}+2Ds+2D)} $$
+Posteriormente, vamos a obtener las siguientes ecuaciones
 $$ {0 = A + C} $$
 $$ {1 = 2A + B + 2C + D} $$
 $$ {2 = 5A + 2B + 2C + 2D} $$
