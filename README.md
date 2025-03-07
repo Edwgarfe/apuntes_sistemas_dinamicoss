@@ -249,5 +249,4 @@ $$ 4 = A(s+3) + B(s+1) $$
 
 # 3 CLASE (VIRTUAL)
 # 4 CLASE 
-En esta clase vimos lo que es el Principio general de modelamiento donde esta se define
-$$ Tasa de acumulación \frac{Masa o}{Energía}=Flujo de\frac{Masa o}{Energía} Entrada - Flujo de \frac{Masa o}{Energía} $$
+Para esta ocasión realizamos un ejercicio acerca de la descomposicion en fracciones parciales de: 
