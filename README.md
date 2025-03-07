@@ -189,6 +189,42 @@ $$ \frac{4}{(s+1)(s+3)} = \frac{A}{s+1} + \frac{B}{s+3} $$
 
 $$ 4 = A(s+3) + B(s+1) $$
 
+$$ 4 = 2A $$
+$$ A = 2 $$
+
+$$ 4 = -2B $$
+$$ B = -2 $$
+
+$$ Y(s) = \frac{2}{s+1} - \frac{2}{s+3} $$
+
+$$ \mathcal{L}^{-1}{Y(s)} = 2e^{-t} - 2e^{-3t} $$
+
+### 📚 2 Ejercicio
+
+Encontrar la transformada inversa de Laplace de:
+
+$$ \frac{2s + 5}{(s+2)(s^2+1)} = \frac{A}{s+2} + \frac{Bs + C}{s^2+1} $$
+
+$$ 2s + 5 = A(s^2+1) + (Bs + C)(s+2) $$
+
+$$ 2(-2) + 5 = A((-2)^2+1) + (B(-2) + C)(-2+2) $$
+$$ 1 = 5A $$
+$$ A = \frac{1}{5} $$
+
+$$ 2s + 5 = \frac{1}{5}(s^2+1) + Bs^2 + (2B+C)s + 2C $$
+
+$$ 5 = \frac{1}{5} + 2C $$
+$$ C = \frac{12}{5} $$
+
+$$ 7 = \frac{2}{5} + 3B + 2C $$
+$$ 7 = \frac{2}{5} + 3B + \frac{24}{5} $$
+$$ 7 = \frac{26}{5} + 3B $$
+$$ B = -\frac{1}{5} $$
+
+$$ Y(s) = \frac{1}{5(s+2)} + \frac{-\frac{1}{5}s + \frac{12}{5}}{s^2+1} $$
+
+$$ \mathcal{L}^{-1}{Y(s)} = \frac{1}{5}e^{-2t} - \frac{1}{5}\cos(t) + \frac{12}{5}\sin(t) $$
+
 
 
 
