@@ -250,3 +250,5 @@ $$ 4 = A(s+3) + B(s+1) $$
 # 3 CLASE (VIRTUAL)
 # 4 CLASE 
 Para esta ocasión realizamos un ejercicio acerca de la descomposicion en fracciones parciales de: 
+
+$$ {G(s)}\frac{s_{2}+2s+3}_{s^{2}+2s+2}\frac{s_{2}+2s+3}_{s^{2}+2s+5} $$
