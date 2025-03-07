@@ -284,6 +284,7 @@ $$ \mathcal{L}^{-1}{Y(s)} = \frac{1}{5}e^{-2t} - \frac{1}{5}\cos(t) + \frac{12}{
 
 
 # 3 CLASE (VIRTUAL)
+
 # 4 CLASE 
 Para esta ocasión realizamos un ejercicio acerca de la descomposicion en fracciones parciales de: 
 
@@ -301,4 +302,6 @@ $$ {3 = 5B + 2D} $$
 $$ {A = 0 -C}$$
 $$ {1 = 2(0) + B + 2(0) + D}$$
 $$ {1 = B + D} $$
+
 # 5 CLASE
+$$ G(s) = \frac {2s-3} {(s+2)(s+10^{3})} = \frac {As+B} {(s^{2}+2s+2)} + \frac {Cs+D} {(s^{2}+2s+5)}  $$
