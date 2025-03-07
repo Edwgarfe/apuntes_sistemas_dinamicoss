@@ -289,6 +289,6 @@ Para esta ocasión realizamos un ejercicio acerca de la descomposicion en fracci
 
 $$ G(s) = \frac {s^{2}+2s+3} {(s^{2}+2s+2)(s^{2}+2s+5)} = \frac {As+B} {(s^{2}+2s+2)} + \frac {Cs+D} {(s^{2}+2s+5)}  $$
 $$ \frac {-2+-√4-8}{2} $$
-$$ {-2+-√4}{2} $$
-$$ {-2+-√4i}{2} $$
+$$ \frac {-2+-√4}{2} $$
+$$ \frac {-2+-√4i}{2} $$
 $$ -1+-i $$
