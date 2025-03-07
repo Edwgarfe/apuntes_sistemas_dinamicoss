@@ -174,3 +174,7 @@ $$ {\mathcal{L^-1} = \frac{-1.05}{s+0.5}+\frac{5.71}{s+1}-\frac{4.66}{s+2.4}} $$
 $$ \mathcal{L}\{Y(t)\}= -1.05e^{-0.5t} + 5.71e^{-t} - 4.66e^{-2.4t} $$
 
 
+
+
+asdfg
+dtfghjkgfdsykuygblkyvtfgpiljgip
