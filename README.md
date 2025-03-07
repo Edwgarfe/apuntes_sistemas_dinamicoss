@@ -173,9 +173,31 @@ $$ {\mathcal{L^-1} = \frac{-1.05}{s+0.5}+\frac{5.71}{s+1}-\frac{4.66}{s+2.4}} $$
 
 $$ \mathcal{L}\{Y(t)\}= -1.05e^{-0.5t} + 5.71e^{-t} - 4.66e^{-2.4t} $$
 
+# Ejercicios 
 
+### 📚 1 Ejercicio
 
+Encontrar la transformada inversa de Laplace de:
 
+$$ Y(s) = \frac{4}{(s+1)(s+3)} $$
+
+Solución:
+
+Primero, descomponemos la función en fracciones parciales:
+
+$$ \frac{4}{(s+1)(s+3)} = \frac{A}{s+1} + \frac{B}{s+3} $$
+
+$$ 4 = A(s+3) + B(s+1) $$
+
+$$ 4 = 2A $$
+$$ A = 2 $$
+
+$$ 4 = -2B $$
+$$ B = -2 $$
+
+$$ Y(s) = \frac{2}{s+1} - \frac{2}{s+3} $$
+
+$$ \mathcal{L}^{-1}{Y(s)} = 2e^{-t} - 2e^{-3t} $$
 
 
 
