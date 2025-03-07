@@ -289,12 +289,13 @@ En esta clase comenzamos con un repaso conciso de las funcionalidades básicas d
 
 >🔑MATLAB**: Un software matemático que permite realizar cálculos numéricos complejos, visualizar datos y programar algoritmos, ampliamente utilizado en ingeniería y ciencias.
 
-''' syms s t
+```
+syms s t
 F = (s+3)/((s+1)*(s+2)); 
 f = ilaplace(F, t); 
 disp(f); 
 ezplot(f, [0, 10]); 
-'''
+```
 
 
 
