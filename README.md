@@ -300,7 +300,7 @@ En este codigo se muestra de manera sencilla como solucionar  una ecuacion con t
 
 ### Ejercicio primer caso con el metodo simplificado:
 
-$$ \frac{s+3}{(s+1)(s+2)} = \frac{A}{s+1} + \frac{B}{s+2} $$
+$$  Y(s) = \frac{s+3}{(s+1)(s+2)} = \frac{A}{s+1} + \frac{B}{s+2} $$
 
 $$ A= \left( \frac{(s+1)(s+3)}{(s+1)(s+2)}  \right)_{s=-1} = \frac{2}{1} = 2$$
 
@@ -308,6 +308,7 @@ $$B= \left( \frac{(s+2)(s+3)}{(s+1)(s+2)} \right)_{s=-2} = \frac{2+3}{-2+1} = -1
 
 $$\mathcal{L}^-1{}{Y(s)} = \frac{2}{s+1} - \frac{1}{s+2}$$
 
+$$ \mathcal{L}{Y(t)} = 2e^{-t} -e^{-2t} $$
 
 
 
