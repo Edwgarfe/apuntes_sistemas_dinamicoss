@@ -310,7 +310,17 @@ $$\mathcal{L}^-1{}{Y(s)} = \frac{2}{s+1} - \frac{1}{s+2}$$
 
 $$ \mathcal{L}{Y(t)} = 2e^{-t} -e^{-2t} $$
 
+# Ejercicios
 
+$$ Y(s) = \frac{2s + 1}{(s+1)(s+3)} = \frac{A}{s+1} + \frac{B}{s+3} $$
+
+$$ A = \left( \frac{(s+1)(2s+1)}{(s+1)(s+3)} \right)_{s=-1} = \frac{-2+1}{-1+3} = \frac{-1}{2} $$
+
+$$ B = \left( \frac{(s+3)(2s+1)}{(s+1)(s+3)} \right)_{s=-3} = \frac{-6+1}{-3+1} = \frac{-5}{-2} = \frac{5}{2} $$
+
+$$ \mathcal{L}^{-1}\{Y(s)\} = -\frac{1}{2}\frac{1}{s+1} + \frac{5}{2}\frac{1}{s+3} $$
+
+$$ \mathcal{L}^{-1}\{Y(t)\} = -\frac{1}{2}e^{-t} + \frac{5}{2}e^{-3t} $$
 
 # 4 CLASE 
 Para esta ocasión realizamos un ejercicio acerca de la descomposicion en fracciones parciales de: 
