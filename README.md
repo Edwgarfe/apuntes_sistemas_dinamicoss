@@ -357,11 +357,15 @@ $$ {A = 0 -C}$$
 $$ {1 = 2(0) + B + 2(0) + D}$$
 $$ {1 = B + D} $$
 
-# EJERCICIO 1
+# Ejercicios 
+
+### 📚 1 Ejercicio
 $$G(s) = \frac{s^2+3s+4}{(s^2+3s+2)(s^2+3s+6)}$$ 
 $$G(s) = \frac{As+B}{(s^2+3s+2)} + \frac{Cs+D}{(s^2+3s+6)}$$
 $$A = 0, B = 1, C = 0, D = -1$$
 $$G(s) = \frac{1}{(s^2+3s+2)} - \frac{1}{(s^2+3s+6)}$$
+
+### 📚 2 Ejercicio
 
 # 5 CLASE
 $$ G(s) = \frac {2s-3} {(s+2)(s+10^{3})} = \frac {A} {(s+2)} - \frac {B} {(s+10^{3})} - \frac {C} {(s+10^{2})}  - \frac {D} {(s+10)}$$
