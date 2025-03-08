@@ -388,17 +388,14 @@ Para resolver A, se multiplica ambos lados de la ecuación por (s+2) y se evalú
 
 $$A = \left. \frac{(s+2)(2s-3)}{(s+2)(s+10^3)} \right|_{s=-2} = \frac{2(-2)-3}{(-2)+10^3} = \frac{-4-3}{8^3} = \frac{7}{512}$$
 
-Resolución de B
 Para resolver B, se multiplica ambos lados de la ecuación por (s+10^3) y se evalúa en s = -10^3:
 
 $$B = \left. \frac{(s+10^3)(2s-3)}{(s+2)(s+10^3)} \right|_{s=-10^3} = \frac{2(-10^3)-3}{(-10^3)+2^2} = \frac{-20-3}{8} = \frac{23}{8}$$
 
-Resolución de C
 Para resolver C, se utiliza la derivada de la función:
 
 $$C = \left. \frac{d}{ds} \frac{2s-3}{s+2} \right|{s=-10} = \left. \frac{2(s+2)-1(2s-3)}{(s+2)^2} \right|{s=-10} = \frac{-16+23}{64} = \frac{7}{64}$$
 
-Resolución de D
 Para resolver D, se utiliza una fórmula similar a la de C:
 
 $$D = \left. \frac{(2-2)(s+2^2)-2(s+2)(2(s+2)-2s-3)}{s+2^4} \right|_{s=-10} = \frac{-112}{4096}
@@ -414,3 +411,5 @@ $$B = \frac{3(-10)-2}{-10+1} = \frac{-32}{-9} = \frac{32}{9}$$
 $$G(s) = \frac{4s-5}{(s+2)(s+5)} = \frac{A}{(s+2)} - \frac{B}{(s+5)}$$
 $$A = \frac{4(-2)-5}{-2+5} = \frac{-13}{3}$$
 $$B = \frac{4(-5)-5}{-5+2} = \frac{-25}{-3} = \frac{25}{3}$$
+
+$$ F^2(S)=  \frac{5s+2)}{(s+1)(s+2)^2} $$
