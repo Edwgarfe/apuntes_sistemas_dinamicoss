@@ -390,15 +390,15 @@ $$A = \left. \frac{(s+2)(2s-3)}{(s+2)(s+10^3)} \right|_{s=-2} = \frac{2(-2)-3}{(
 
 Para resolver B, se multiplica ambos lados de la ecuación por (s+10^3) y se evalúa en s = -10^3:
 
-$$B = \left. \frac{(s+10^3)(2s-3)}{(s+2)(s+10^3)} \right|_{s=-10^3} = \frac{2(-10^3)-3}{(-10^3)+2^2} = \frac{-20-3}{8} = \frac{23}{8}$$
+$$B = \frac{(s+10^3)(2s-3)}{(s+2)(s+10^3)} {s=-10^3} = \frac{2(-10^3)-3}{(-10^3)+2^2} = \frac{-20-3}{8} = \frac{23}{8}$$
 
 Para resolver C, se utiliza la derivada de la función:
 
-$$C = \left. \frac{d}{ds} \frac{2s-3}{s+2} \right|{s=-10} = \left. \frac{2(s+2)-1(2s-3)}{(s+2)^2} \right|{s=-10} = \frac{-16+23}{64} = \frac{7}{64}$$
+$$C = \frac{d}{ds} \frac{2s-3}{s+2} {s=-10} = \frac{2(s+2)-1(2s-3)}{(s+2)^2} {s=-10} = \frac{-16+23}{64} = \frac{7}{64}$$
 
 Para resolver D, se utiliza una fórmula similar a la de C:
 
-$$D = \left. \frac{(2-2)(s+2^2)-2(s+2)(2(s+2)-2s-3)}{s+2^4} \right|_{s=-10} = \frac{-112}{4096}
+$$D = \frac{(2-2)(s+2^2)-2(s+2)(2(s+2)-2s-3)}{s+2^4} _{s=-10} = \frac{-112}{4096}
 
 # Ejercicios
 
@@ -416,7 +416,7 @@ $$ F_2(S)=  \frac{(5s+2)}{(s+1)(s+2)^2} $$
 $$ \frac {A}{(s+1)} + \frac {B}{(s+2)^2} + \frac {C}{(s+2)}  $$
 $$ A = (\frac {(s+1)(5s+2)} {(s+1) (s+2)^2} _{s=-1} = \frac {-5+2} {1} = \frac {-3} {1} = {-3} $$
 $$ B = (\frac {(s+2)^2(5s+2)} {(s+1) (s+2)^2} _{s=-2} = \frac {-10+2} {-1} = \frac {-8} {-1} = {8}  $$
-$$ C = \frac {d} {ds}  $$
+$$ C = \frac {d} {ds}  \frac {5s+2}{(s+1)} _{s=-2} \frac {5(s+1)-5s+2(1)}{(s+1)^2} _{s=-2} $$
 $$  $$
 $$  $$
 $$  $$
