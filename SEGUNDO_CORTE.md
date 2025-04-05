@@ -1,7 +1,7 @@
 # 1 CLASE
 ## PRINCIPIO GENERAL DE MODELAMIENTO
 
- Tasa de acumulación \frac{Masa o} {Energía} 
+ Tasa de acumulación $$ G(s) = \frac{Masa o} {Energía} 
 
 
 
