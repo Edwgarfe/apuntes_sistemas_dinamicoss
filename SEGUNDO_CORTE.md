@@ -1,6 +1,7 @@
 # 1 CLASE
+## PRINCIPIO GENERAL DE MODELAMIENTO
 
-
+ Tasa de acumulación \frac{Masa o} {Energía} 
 
 
 
