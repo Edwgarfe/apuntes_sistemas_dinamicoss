@@ -10,6 +10,18 @@
 *Masa o Energía*  
 **Salida**
 
+# Sistemas masa-resorte-amortiguador
+
+**Fenómeno físico que modela el sistema:**
+
+- **Fₑ = k₂ × x**  → *Ley de Hooke* (resorte derecho)
+- **Fₐ = k₁ × vₘ**  → *Fricción viscosa* (amortiguador izquierdo)
+- **F = m × a**     → *Leyes de Newton*
+
+
+
+
+
 
 
 
