@@ -1,15 +1,14 @@
 # 1 CLASE
 # Principio general de modelamiento
 
-**Tasa de acumulación de Masa o Energía** = **Flujo de Entrada de Masa o Energía** − **Flujo de Salida de Masa o Energía**
-
-Expresado en notación matemática:
-
-$$
-\frac{d(\text{Masa o Energía})}{dt} = \text{Flujo de Entrada} - \text{Flujo de Salida}
-$$
-
-
+**Tasa de acumulación**  
+*Masa o Energía*  
+=  
+**Flujo de**  
+*Masa o Energía*  
+**Entrada – Flujo de**  
+*Masa o Energía*  
+**Salida**
 
 
 
