@@ -1,7 +1,15 @@
 # 1 CLASE
-## PRINCIPIO GENERAL DE MODELAMIENTO
+# Principio general de modelamiento
 
- $$ G(s) = \frac{A}{s+1} + \frac{B}{s-2} + \frac{C}{s-3} $$
+**Tasa de acumulación de Masa o Energía** = **Flujo de Entrada de Masa o Energía** − **Flujo de Salida de Masa o Energía**
+
+Expresado en notación matemática:
+
+$$
+\frac{d(\text{Masa o Energía})}{dt} = \text{Flujo de Entrada} - \text{Flujo de Salida}
+$$
+
+
 
 
 
