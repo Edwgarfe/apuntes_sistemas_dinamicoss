@@ -22,22 +22,21 @@
 
 ## Diagrama de cuerpo libre
 
-### Ecuaciones del sistema:
+```latex
+u - F_R - F_F = m \cdot a
 
-```text
-1.  u - F_R - F_F = m * a
+F_R = k_2 \cdot y(t)
 
-2.  F_R = k₂ * y(t)
+u(t) - k_2 \cdot y(t) - F_F = m \cdot a
 
-3.  u(t) - k₂ * y(t) - F_F = m * a
+F_F = k_1 \cdot \frac{dy(t)}{dt}
 
-4.  F_F = k₁ * dy(t)/dt
+u(t) - k_2 \cdot y(t) - k_1 \cdot \frac{dy(t)}{dt} = m \cdot a
 
-5.  u(t) - k₂ * y(t) - k₁ * dy(t)/dt = m * a
+a = \frac{d^2y(t)}{dt^2}
 
-6.  a = d²y(t)/dt²
+u(t) - k_2 \cdot y(t) - k_1 \cdot \frac{dy(t)}{dt} = m \cdot \frac{d^2y(t)}{dt^2}
 
-7.  u(t) - k₂ * y(t) - k₁ * dy(t)/dt = m * d²y(t)/dt²
 
 
 
