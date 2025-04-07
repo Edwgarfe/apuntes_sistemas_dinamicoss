@@ -22,21 +22,21 @@
 
 ## Diagrama de cuerpo libre
 
-```latex
-u - F_R - F_F = m \cdot a
+## Ecuaciones del sistema masa-resorte-amortiguador
 
-F_R = k_2 \cdot y(t)
+u - F_R - F_F = m * a
 
-u(t) - k_2 \cdot y(t) - F_F = m \cdot a
+F_R = k₂ * y(t)
 
-F_F = k_1 \cdot \frac{dy(t)}{dt}
+u(t) - k₂ * y(t) - F_F = m * a
 
-u(t) - k_2 \cdot y(t) - k_1 \cdot \frac{dy(t)}{dt} = m \cdot a
+F_F = k₁ * dy(t)/dt
 
-a = \frac{d^2y(t)}{dt^2}
+u(t) - k₂ * y(t) - k₁ * dy(t)/dt = m * a
 
-u(t) - k_2 \cdot y(t) - k_1 \cdot \frac{dy(t)}{dt} = m \cdot \frac{d^2y(t)}{dt^2}
+a = d²y(t)/dt²
 
+u(t) - k₂ * y(t) - k₁ * dy(t)/dt = m * d²y(t)/dt²
 
 
 
