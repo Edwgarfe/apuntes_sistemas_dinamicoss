@@ -1,27 +1,21 @@
 # 1 CLASE
 # Principio general de modelamiento
 
-\[
-\text{Tasa de acumulación de } 
-\begin{Bmatrix}
-\text{Masa} \\
-\text{o} \\
-\text{Energía}
-\end{Bmatrix}
-=
-\text{Flujo de } 
-\begin{Bmatrix}
-\text{Masa} \\
-\text{o} \\
-\text{Energía}
-\end{Bmatrix}
-\text{ Entrada}
--
-\text{Flujo de } 
-\begin{Bmatrix}
-\text{Masa} \\
-\text{o} \\
-\text{Energía}
-\end{Bmatrix}
-\text{ Salida}
-\]
+**Tasa de acumulación de:**
+- Masa  
+- o  
+- Energía  
+
+=  
+
+**Flujo de:**
+- Masa  
+- o  
+- Energía  
+**(Entrada)**  
+−  
+**Flujo de:**
+- Masa  
+- o  
+- Energía  
+**(Salida)**
