@@ -3,23 +3,25 @@
 
 \[
 \text{Tasa de acumulación de } 
-\begin{matrix}
+\begin{Bmatrix}
 \text{Masa} \\
-\text{ó} \\
+\text{o} \\
 \text{Energía}
-\end{matrix}
-= \text{Flujo de } 
-\begin{matrix}
+\end{Bmatrix}
+=
+\text{Flujo de } 
+\begin{Bmatrix}
 \text{Masa} \\
-\text{ó} \\
+\text{o} \\
 \text{Energía}
-\end{matrix}
-\text{ Entrada} 
-- \text{Flujo de } 
-\begin{matrix}
+\end{Bmatrix}
+\text{ Entrada}
+-
+\text{Flujo de } 
+\begin{Bmatrix}
 \text{Masa} \\
-\text{ó} \\
+\text{o} \\
 \text{Energía}
-\end{matrix}
+\end{Bmatrix}
 \text{ Salida}
 \]
