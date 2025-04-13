@@ -5,7 +5,7 @@
 # Resorte
 # Amortiguador
 ## Tipos de fricción
-## Fricción en seco
+### Fricción en seco
 - Es aquella que se presenta cuando un cuerpo con una superficie no lubricada se desliza sobre otra superficie no lubricada.
   - **Fricción estática**
   - **Fricción por deslizamiento**
