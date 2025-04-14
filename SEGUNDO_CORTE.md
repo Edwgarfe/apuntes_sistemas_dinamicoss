@@ -1,5 +1,3 @@
-# 1 CLASE
-## Principio general de modelamiento
 ## Principio general de modelamiento
 
 El **principio general de modelamiento** es una regla fundamental utilizada para describir sistemas físicos. Aplica tanto para **masa** como para **energía** (o cualquier otra cantidad conservativa como carga, cantidad de movimiento, etc.)
@@ -15,11 +13,10 @@ Este principio se usa para modelar:
 - Sistemas mecánicos (balance de momento o cantidad de movimiento)
 ## Sistemas Mecanicos
 # Resorte
-## Resorte
 
 El resorte es un elemento mecánico fundamental en sistemas físicos. Se utiliza para modelar fuerzas restauradoras que dependen del desplazamiento.
 
-### Modelo de resorte lineal (Ley de Hooke)
+# Modelo de resorte lineal (Ley de Hooke)
 
 \[
 F = k \cdot x = k(x_1 - x_2)
@@ -38,10 +35,9 @@ La gráfica muestra la relación fuerza vs. desplazamiento para diferentes tipos
 - **Resorte duro**: la rigidez aumenta con el desplazamiento
 - **Resorte suave**: la rigidez disminuye con el desplazamiento
 # Amortiguador
-## Amortiguador
 
 Un **amortiguador** es un elemento mecánico que modela una fuerza proporcional a la **velocidad relativa** entre dos cuerpos. Este comportamiento es típico en sistemas donde se presenta fricción viscosa
-### Modelo de fricción viscosa (Amortiguador lineal)
+# Modelo de fricción viscosa (Amortiguador lineal)
 
 \[
 F = b \cdot \dot{x} = b(\dot{x}_1 - \dot{x}_2)
@@ -51,7 +47,7 @@ Donde:
 - `F` es la fuerza generada por el amortiguador.
 - `b` es la **constante de fricción viscosa**.
 - \(\dot{x}_1\) y \(\dot{x}_2\) son las velocidades de los extremos del amortiguador
-### Comportamiento del amortiguador
+# Comportamiento del amortiguador
 
 - Es un **comportamiento lineal**.
 - La fuerza disipa energía cinética.
@@ -92,31 +88,92 @@ La **fricción por rodamiento** ocurre cuando un cuerpo (como una rueda o cilind
 - **r**: radio del cuerpo que rueda.
 - **h**: altura a la que se aplica la fuerza **P**.
 ## Sistemas masa-resorte-amortiguador
+1. u - FR - FF = m * a
+    Segunda Ley de Newton: la suma de fuerzas es igual a masa por aceleración.
 
-Este tipo de sistema es clásico en la física y la ingeniería, y se utiliza para modelar fenómenos de vibración, control de movimiento y dinámica de estructuras. Está compuesto por:
+2. FR = k2 * y(t)
+    Fuerza del resorte (Ley de Hooke): proporcional al desplazamiento.
 
-- Una **masa** `m` que se mueve sobre una superficie.
-- Un **resorte** (constante `k₂`) que proporciona una fuerza restauradora.
-- Un **amortiguador** (constante `k₁`) que introduce disipación de energía mediante fricción viscosa.
-- Una entrada o fuerza externa `u`.
-### Fenómenos físicos que modelan el sistema:
+3. FF = k1 * dy(t)/dt
+    Fuerza del amortiguador (fricción viscosa): proporcional a la velocidad.
 
-- **Ley de Hooke** (fuerza del resorte):
-  \[
-  F_R = k_2 \cdot x
-  \]
-  Esta fuerza es proporcional al desplazamiento `x` del resorte desde su posición de equilibrio.
+4. u(t) - k2 * y(t) - FF = m * a
+    Sustituyendo FR en la ecuación de Newton.
 
-- **Fricción viscosa** (fuerza del amortiguador):
-  \[
-  F_F = k_1 \cdot v_m
-  \]
-  La fuerza es proporcional a la velocidad relativa `v_m` de la masa, actuando como disipación de energía.
+5. u(t) - k2 * y(t) - k1 * dy(t)/dt = m * a
+    Sustituyendo FF también: ecuación dinámica completa.
 
-- **Segunda Ley de Newton** (dinámica del sistema):
-  \[
-  F = m \cdot a
-  \]
-  Relaciona la fuerza neta con la aceleración `a` del cuerpo.
+6. a = d²y(t)/dt²
+    Definición de aceleración como segunda derivada del desplazamiento.
+
+7. u(t) - k2 * y(t) - k1 * dy(t)/dt = m * d²y(t)/dt²
+    Forma final de la ecuación diferencial del sistema.
+   
+## Ejemplo:
+Encontrar el modelo matemático que describe el sistema masa-resorte-amortiguador representado por la suspensión de un automóvil.
+
+El sistema está compuesto por:
+- Una masa `m` (la carrocería del automóvil).
+- Un resorte de rigidez `k₂`.
+- Un amortiguador de coeficiente `k₁`.
+- Una entrada `u(t)` correspondiente al desplazamiento vertical del terreno o rueda.
+- Una salida `y(t)` correspondiente al desplazamiento de la carrocería.
+
+### Supuestos:
+- Movimiento unidimensional (vertical)
+- Comportamiento lineal de resortes y amortiguadores
+- El resorte y amortiguador están conectados entre la masa y el terreno
+
+Fuerza total sobre la masa:
+m * d²y(t)/dt² = -k₂ * (y(t) - u(t)) - k₁ * (dy(t)/dt - du(t)/dt)
+m * y''(t) + k₁ * (y'(t) - u'(t)) + k₂ * (y(t) - u(t)) = 0
+
+ Donde:
+ - `y''(t)` es la aceleración de la masa
+ - `y'(t)` es la velocidad de la masa
+ - `u(t)` es la entrada del sistema (irregularidad del terreno)
+ - `k₁`, `k₂` son constantes positivas
+ - Este modelo describe una suspensión pasiva
+## Ejemplo 1: Control de temperatura de un horno
+Modelar el comportamiento térmico de un horno eléctrico regulado por un termostato
+
+## Supuestos:
+- La temperatura interna del horno es `T(t)`.
+- La entrada de calor está dada por la señal de control `u(t)`.
+- Existe pérdida de calor hacia el ambiente a temperatura `T_amb`.
+
+## Modelo:
+
+Por el principio general de modelamiento (balance de energía):
+C * dT(t)/dt = -k * (T(t) - T_amb) + u(t)
+
+## Variables:
+- `C`: Capacidad térmica del horno.
+- `k`: Coeficiente de pérdida térmica.
+- `u(t)`: Potencia de calefacción suministrada.
+- `T(t)`: Temperatura interna del horno.
+- `T_amb`: Temperatura ambiente (constante).
+
+## Interpretación:
+- El modelo describe cómo cambia la temperatura del horno en función de la energía suministrada y las pérdidas.
+- Se puede usar para diseñar un controlador (ej. PID) que mantenga la temperatura deseada
+## Ejemplo 2: Sistema masa-resorte-amortiguador vertical
+Modelar el movimiento vertical de una masa suspendida por un resorte y amortiguador.
+
+## Descripción:
+- Una masa `m` cuelga de un resorte con constante `k` y amortiguador de constante `b`.
+- La posición vertical de la masa es `y(t)` (medida hacia abajo desde la posición de equilibrio).
+- Se considera la gravedad.
+
+### Modelo dinámico (con fuerza neta):
+m * d²y(t)/dt² = -k * y(t) - b * dy(t)/dt + m * g
+m * y''(t) + b * y'(t) + k * y(t) = 0
+
+# Sistemas Acoplados
+
+
+
+
+
 
 
