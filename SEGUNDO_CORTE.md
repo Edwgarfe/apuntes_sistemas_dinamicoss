@@ -170,10 +170,74 @@ m * d²y(t)/dt² = -k * y(t) - b * dy(t)/dt + m * g
 m * y''(t) + b * y'(t) + k * y(t) = 0
 
 # Sistemas Acoplados
+# Ejemplos de Modelado Dinámico de Sistemas Físicos
 
+##  Ejemplo 1: Control de temperatura de un horno
 
+Modelar el comportamiento térmico de un horno eléctrico regulado por un termostato.
 
+### Supuestos:
+- La temperatura interna del horno es `T(t)`.
+- La entrada de calor está dada por la señal de control `u(t)`.
+- Existe pérdida de calor hacia el ambiente a temperatura `T_amb`.
 
+### Modelo:
 
+Por balance de energía:
 
+```
+C * dT(t)/dt = -k * (T(t) - T_amb) + u(t)
+```
 
+### Variables:
+- `C`: Capacidad térmica del horno.
+- `k`: Coeficiente de pérdida térmica.
+- `u(t)`: Potencia de calefacción suministrada.
+- `T(t)`: Temperatura interna del horno.
+- `T_amb`: Temperatura ambiente (constante).
+
+### Interpretación:
+- El modelo describe cómo varía la temperatura interna en función del calor suministrado y las pérdidas.
+- Se puede usar para diseñar un controlador (ej. PID) que mantenga la temperatura deseada.
+
+---
+
+## Ejemplo 2: Sistema masa-resorte-amortiguador vertical
+
+Modelar el movimiento vertical de una masa suspendida por un resorte y un amortiguador.
+
+### Descripción:
+- Una masa `m` cuelga de un resorte con constante `k` y amortiguador de constante `b`.
+- La posición vertical de la masa es `y(t)` (medida hacia abajo desde el equilibrio).
+- Se considera el efecto de la gravedad.
+
+### Modelo dinámico (segunda ley de Newton):
+
+```
+m * y''(t) + b * y'(t) + k * y(t) = 0
+```
+
+Donde:
+- `y''(t)`: Aceleración de la masa.
+- `y'(t)`: Velocidad de la masa.
+- `y(t)`: Desplazamiento desde el equilibrio.
+
+Este sistema se puede resolver numéricamente para simular su comportamiento o diseñar un sistema de control.
+
+---
+
+## Sistemas Acoplados
+
+Para casos con múltiples masas o subsistemas conectados, como:
+
+- Dos masas unidas por resortes y amortiguadores.
+- Sistemas mecánicos con entradas y salidas múltiples.
+
+Se usan ecuaciones diferenciales acopladas, como:
+
+```
+m1 * x1'' = f1(x1, x2, v1, v2, t)
+m2 * x2'' = f2(x1, x2, v1, v2, t)
+```
+
+Donde cada ecuación describe la dinámica de una parte del sistema influenciada por las otras
