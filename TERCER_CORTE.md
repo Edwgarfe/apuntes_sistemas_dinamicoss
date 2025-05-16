@@ -4,6 +4,7 @@
 ### Sitemas de tanques 
 >🔑 En sistemas industriales de tanques es deseable manteber flujo o nivel constante.
 
+### Modelo de un tanque 
 ![Imagen tanque](/imagen_tanques.png)
 
 $$ q_{i} , q_{o}; -Flujos-de-entrada-y-salida-del-liquido  $$ 
@@ -35,6 +36,7 @@ $$ h_{1} = q_{1}*R1 $$
 $$ R_{1}A_{1}\frac{dq_{1}}{dt} = q_{i} - q_{1} $$
 
 
+### Modelos 2 tanques 
 
 
 
