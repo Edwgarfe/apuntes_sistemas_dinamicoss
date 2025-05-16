@@ -37,6 +37,11 @@ $$ R_{1}A_{1}\frac{dq_{1}}{dt} = q_{i} - q_{1} $$
 
 
 ### Modelos 2 tanques 
+![modelo dos tanques](/modelo_2_tanques.png)
+$$ q_{1}= \frac{h_{1}}{R_{1}} ==> h_{1}=q_{1}*R_{1} $$
+$$  A_{1}\frac{dh_{1}}{dt} = q_{i} - q_{1} $$
 
+$$ q_{2} = \frac{h_{2}}{R_{2}} $$
+$$ A_{2}\frac{dh_{2}}{dt}= q_{1}-q_{2} ==> A_{2}\frac{dh_{2}}{dt}q_{2}==>q_{1}-\frac{h_{2}}{R-{2}} $$
 
 
