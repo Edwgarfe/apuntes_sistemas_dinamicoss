@@ -92,7 +92,7 @@ $$ A_{1}(R_{1}\frac{dq_{1}}{dt})= q_{i} - q_{1} $$
 $$ q_{i} = A_{1}R_{1}\frac{dq_{1}}{dt}+q_{1} $$
 
 ### 📚 2 Ejercicio
-
+![ejemplo 2 tanques](/2_tanques.jpg)
 
 ##### Ecuaciones Fundamentales 
 $$ A_{1}\frac{dh_{1}}{dt}= q_{i}-q_{1} $$
@@ -369,3 +369,34 @@ J y Km cambian si se tiene en cuenta el efecto de los engranaje o poleas
 ### Transmision rotacional a lineal 
 
 
+
+
+
+# Sistemas de Primer Orden 
+
+La estructura general de una ecuacion de primer orden es : 
+
+$$ ay'(t)+by(t) = cu(t) $$
+
+Hallando la funcion de transferencia y aplicando la transformada de laplace es:
+
+$$ asY(s)+bY(s) = cU(s) $$
+
+Despejando salida/entrada:
+
+$$ \frac{Y(s)}{U(s)}=\frac{c}{as+b} $$
+
+
+>Las funciones de trasnferencia de primer orden proviene de una eciación diferencial de primer orden
+>Los parametros a, b y c son los parametros fisicos del sistema que definen la dinamica del sistema.
+
+## Forma canonica de los sistemas de primer orden
+Esta forma permite identificar directamente los parametros temporales del sistema.
+
+$$ \frac{Y(s)}{U(s)}=\frac{c}{as+b} = \frac{\frac{c}{b}}{\frac{a}{b}s+1}$$
+
+>🔑 Se divide por b todos los terminos para no alterar la funcion y dejar la funcion de transferencia asi:
+
+##### Constante de tiempo
+\tau  = \frac{a}{b} 
+##### Ganancia estatica
