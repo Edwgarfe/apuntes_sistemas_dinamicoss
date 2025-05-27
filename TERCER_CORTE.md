@@ -348,4 +348,11 @@ $$T_{c}(s)=(T_{m}(s)-T_{p}(s)$$
 
 $$O(s)=(T_{c}(s)\frac{1}{(s^2J+bs)}$$
 
-##Diagrama de bloques resultante
+## Diagrama de bloques resultante
+![bloque](/bloque.jpg)
+
+
+# Engranajes y poleas
+
+J y Km cambian si se tiene en cuenta el efecto de los engranaje o poleas 
+
