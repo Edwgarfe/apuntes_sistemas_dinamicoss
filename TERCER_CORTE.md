@@ -399,6 +399,8 @@ $$ \frac{Y(s)}{U(s)}=\frac{c}{as+b} = \frac{\frac{c}{b}}{\frac{a}{b}s+1}$$
 
 ##### Constante de tiempo
 
+>🔑 Esto indica cuanto se demora en responder el sistema 
+
 \tau  = \frac{a}{b} 
 
 ##### Ganancia estatica
@@ -414,4 +416,27 @@ $$ \frac{Y(s)}{U(s)}= \frac{K}{\tau S + 1}$$
 ![identificacion de forma canonica](/identificacion_forma_canonica.jpg)
 
 
+Indentificar T y K para el siguiente sistema:
 
+##### Ejemplo 1
+
+$$ \frac{Y(s)}{U(s)}= \frac{0.8}{s+4} $$
+
+
+$$ \frac{Y(s)}{U(s)}= \frac{0.8}{s+4} = \frac{\frac{0.8}{4}}{\frac{s}{4}+\frac{4}{4}} = \frac{0.2}{0.25*s+1} $$
+
+$$ \tau= 0.25$$
+$$ K = 0.2 $$
+
+##### Ejemplo 2
+
+$$ \frac{Y(s)}{U(s)}= \frac{5}{2s+16} $$
+
+$$ \frac{Y(s)}{U(s)}= \frac{5}{2s+16} = \frac{\frac{5}{16}}{\frac{2}{16}s+1} = \frac{0.31}{0.125s+1} $$
+
+$$ \tau= 0.125$$
+$$ K = 0.31 $$
+
+## Respuesta temporal de un sistema de primer orden 
+
+![respuesta escalon](/respuesta_escalon.jpg)
