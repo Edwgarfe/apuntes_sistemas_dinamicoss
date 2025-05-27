@@ -229,3 +229,5 @@ Otro enfoque es utilizar modelos ya desarrollados ampliamente para construir mod
 Aún usando este enfoque hay muchos tipos de procesos y dispositivos
 ## Solenoide
 Un solenoide está formado por un circuito eléctrico, un acoplamiento electromecánico (transductor) y un sistema mecánico de traslación.
+![Solenoide](/solenoide.jpg)
+$$L\frac{di}{dt}+Ri=v(t)$$
