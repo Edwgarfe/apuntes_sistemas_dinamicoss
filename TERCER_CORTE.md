@@ -1431,4 +1431,9 @@ $$𝑎1 = 2𝜁𝜔𝑛 𝑎0 = 𝜔𝑛2 𝑦 𝑏0 = 𝐾 ∗ 𝜔𝑛2$$
   $$Y(s) = \frac{K \cdot \omega_n^2 \cdot A}{(s   \zeta \omega_n   \omega_n \sqrt{\zeta^2 - 1})(s   \zeta \omega_n - \omega_n \sqrt{\zeta^2 - 1}) \cdot s}$$
 
   - Si \zeta = 1
+
+    ![escalon](/escalon1.jpg)
+
+  - Si \zeta >  1
+ 
     
