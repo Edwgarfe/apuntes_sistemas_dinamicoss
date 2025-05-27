@@ -298,3 +298,6 @@ $$O(s)=T_{c}(s)\frac{1}{(s^2J+bs)}$$
 ### La conexión de los modelos se realiza de la siguiente manera:
 
 ![DC](/corrientedecampo.jpg)
+
+![ecuacion](/ecuacion.jpg)
+
