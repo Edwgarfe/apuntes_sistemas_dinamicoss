@@ -356,3 +356,8 @@ $$O(s)=(T_{c}(s)\frac{1}{(s^2J+bs)}$$
 
 J y Km cambian si se tiene en cuenta el efecto de los engranaje o poleas 
 
+![polea](/poleas.jpg)
+
+### Diagrama de bloques
+
+
