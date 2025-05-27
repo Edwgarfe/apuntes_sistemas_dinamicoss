@@ -453,7 +453,12 @@ $$ Y(s)= \frac{C1}{s}+\frac{C2}{s+\frac{1}{\tau}}=\frac{AK}{s}-\frac{AK}{s+\frac
 
 Al aplicar la transformada inversa de laplace 
 
-$$ L^{-1}\left\{ Y(s) \right\} = y(t)= AK(1-e^{-\frac{t}{\tau}}) $$
+$$ L^{-1}{ Y(s) } = y(t)= AK(1-e^{-\frac{t}{\tau}}) $$
 
 ### Respuesta temporal 
 ![](/respuesta_temporal.jpg)
+
+![](/asumiendo_valores.jpg)
+![](/constante_tiempo.jpg)
+
+>🔑En las anteriores imagenes podemos ver como es el comportamiento del sistema aplicandole un escalon y en que punto se comienza a estabilizar, segun algunos libros y convenciones la estabilizacion de sistema comienza en 4tau donde ya se ha obtenido un 98.2% de la respuesta 
