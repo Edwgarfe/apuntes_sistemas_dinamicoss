@@ -255,3 +255,9 @@ Sistema mecanico
 
 # Representación en bloques
 ![Bloque](/1bloque.jpg)
+
+![Bloque1](/2bloque.jpg)
+
+## Como modelar un motor DC
+
+![Bloque](/
