@@ -230,4 +230,27 @@ Aún usando este enfoque hay muchos tipos de procesos y dispositivos
 ## Solenoide
 Un solenoide está formado por un circuito eléctrico, un acoplamiento electromecánico (transductor) y un sistema mecánico de traslación.
 ![Solenoide](/solenoide.jpg)
+
 $$L\frac{di}{dt}+Ri=v(t)$$
+
+$$I(s)=V(s)\frac{1}{Ls+R}$$
+
+Modelo del circuito electromagnetico
+
+
+$$F_{(s)}=K_{(s)}i$$
+
+$$F_{s}(s)=K_{s}I(s)$$
+
+Acople entre la parte electromagnetica y la parte mecanica
+
+Cuando tenemos modelos lineales, modelos estaticos, la funcion de transferencia es constante, cuando tenemos modelos con terminos de ecuacion diferencial, es decir, derivadas de diferente orden o integrales, nos aparecerá en terminos de (s)
+
+$$m\frac{{d}^2x}{d{t}^2}+b\frac{dx}{dt}+kx=f(t)$$
+
+$$X(s)=F(s)\frac{1}{ms^2+bs+k}$$
+
+Sistema mecanico
+
+
+#Representación en bloques
