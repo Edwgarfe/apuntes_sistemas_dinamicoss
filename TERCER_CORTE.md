@@ -1378,3 +1378,39 @@ $$ \frac{Y(s)}{U(s)} = \frac{1.5}{0.5s+3} = \frac{\frac{1.5}{3}}{\frac{0.5s}{3}+
 $$ \tau = 0.1667 $$
 $$ K = 0.5 $$
 
+
+
+
+
+
+
+
+
+# Sistemas de Segundo orden
+
+## Ecuaciones diferenciales de Segundo orden 
+
+La estructura general de una ecuación de segundo orden es:
+$$y'(t)+a_{1}y'(t)+a_{0}y(t)=b_{0}u(t)$$
+
+Hallando la función de transferencia tenemos:
+
+Aplicando transformada de LaPlace:
+
+$$s^2 Y(s)   a_1 s Y(s)   a_0 Y(s) = b_0 U(s)$$
+
+Despejando salida / Entrada
+
+$$\frac{Y(s)}{U(s)} = \frac{b_0}{s^2   a_1 s   a_0}$$
+
+# Forma canónica de los sistemas de segundo orden
+
+$$\frac{Y(s)}{U(s)} = \frac{b_0}{s^2   a_1 s   a_0}$$
+
+Esta forma no permite identificar directamente los parámetros temporales del sistema
+
+Para esto en control se prefiere la forma canónica
+
+La forma canónica considera lo siguiente:
+
+$$𝑎1 = 2𝜁𝜔𝑛 𝑎0 = 𝜔𝑛2 𝑦 𝑏0 = 𝐾 ∗ 𝜔𝑛2$$
