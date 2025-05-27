@@ -253,5 +253,5 @@ $$X(s)=F(s)\frac{1}{ms^2+bs+k}$$
 Sistema mecanico
 
 
-#Representación en bloques
-[Bloque](/1 bloque.jpg)
+# Representación en bloques
+![Bloque](/1bloque.jpg)
