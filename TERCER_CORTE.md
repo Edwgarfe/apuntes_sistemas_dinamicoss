@@ -401,7 +401,7 @@ $$ \frac{Y(s)}{U(s)}=\frac{c}{as+b} = \frac{\frac{c}{b}}{\frac{a}{b}s+1}$$
 
 >🔑 Esto indica cuanto se demora en responder el sistema 
 
-\tau  = \frac{a}{b} 
+$$ \tau  = \frac{a}{b} $$
 
 ##### Ganancia estatica
 
@@ -440,3 +440,20 @@ $$ K = 0.31 $$
 ## Respuesta temporal de un sistema de primer orden 
 
 ![respuesta escalon](/respuesta_escalon.jpg)
+
+$$ Y(s) = \frac{U(s)K}{\tau s +1} =  \frac{\frac{A}{s}K}{\tau s +1}$$
+
+### Respuesta de un Sistema de primer orden ante una entrada escalón
+
+$$ Y(s) = \frac{AK}{s(\tau s+1)} $$
+
+Aplicandofracciones parciales:
+
+$$ Y(s)= \frac{C1}{s}+\frac{C2}{s+\frac{1}{\tau}}=\frac{AK}{s}-\frac{AK}{s+\frac{1}{\tau}} $$
+
+Al aplicar la transformada inversa de laplace 
+
+$$ L^{-1}\left\{ Y(s) \right\} = y(t)= AK(1-e^{-\frac{t}{\tau}}) $$
+
+### Respuesta temporal 
+![](/respuesta_temporal.jpg)
