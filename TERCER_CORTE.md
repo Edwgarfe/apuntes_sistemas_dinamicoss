@@ -1435,5 +1435,6 @@ $$𝑎1 = 2𝜁𝜔𝑛 𝑎0 = 𝜔𝑛2 𝑦 𝑏0 = 𝐾 ∗ 𝜔𝑛2$$
     ![escalon](/escalon1.jpg)
 
   - Si \zeta >  1
- 
+    
+    ![escalon](/escalon2.jpg)
     
