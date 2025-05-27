@@ -222,3 +222,10 @@ $$ q_{i} = A_{1}R_{1}\frac{dq_{1}}{dt}+q_{1}
 
 
 
+# Diagrama de bloques 
+## Modelos de los sistemas complejos 
+Se podrían modelar sistemas como un todo hallando las funciones de transferencia de cada componente
+Otro enfoque es utilizar modelos ya desarrollados ampliamente para construir modelos más complejos
+Aún usando este enfoque hay muchos tipos de procesos y dispositivos
+## Solenoide
+Un solenoide está formado por un circuito eléctrico, un acoplamiento electromecánico (transductor) y un sistema mecánico de traslación.
