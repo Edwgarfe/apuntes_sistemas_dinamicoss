@@ -260,4 +260,9 @@ Sistema mecanico
 
 ## Como modelar un motor DC
 
-![Bloque](/
+![Bloque](/motordc.jpg)
+
+El motor de corriente continua, denominado también motor de corriente directa, motor CC o motor DC es una máquina que convierte energía eléctrica en energía mecánica, provocando un movimiento rotatorio, gracias a la acción de un campo magnético.
+# Motor DC (corriente de campo)
+
+### Circuito electromagnetico
