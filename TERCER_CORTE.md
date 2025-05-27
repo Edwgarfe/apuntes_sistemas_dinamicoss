@@ -323,3 +323,29 @@ $$O(s)=T_{c}(s)\frac{1}{(s^2J+bs)}$$
 
 ![ecuacion](/ecuacion.jpg)
 
+# Motor DC (Corriente de armadura)
+
+La corriente de campo se supone constate por lo tanto el Torque es:
+
+$$T_{m}(s)=(K_{a}K_{c}I_{c})I_{a}(s)=K_{m}I_{a}(s)$$
+
+La corriente de armadura se relaciona con el voltaje aplicado a la armadura por:
+
+$$V_{a}(s)=(sL_{a} R_{a})I_{a}(s) V_{b}(s)$$
+
+El voltaje inducido en la armadura es proporcional a la velocidad angular del eje:
+
+$$V_{a}(s)=(sL_{a} R_{a})I_{a}(s) V_{b}(s)$$
+$$V_{b}(s)=K_{b}\omega(s)$$
+
+Combinando estas ecuaciones se obtiene
+
+$$I_{a}(s)=\frac{V_{a}(s)-K_{b}\omega (s)}{sL_{a} R_{a}}$$
+
+La parte mecánica se comporta de la misma manera que en el caso anterior:
+
+$$T_{c}(s)=(T_{m}(s)-T_{p}(s)$$
+
+$$O(s)=(T_{c}(s)\frac{1}{(s^2J+bs)}$$
+
+##Diagrama de bloques resultante
