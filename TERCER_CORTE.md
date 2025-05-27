@@ -360,4 +360,8 @@ J y Km cambian si se tiene en cuenta el efecto de los engranaje o poleas
 
 ### Diagrama de bloques
 
+![bloque2](/bloque2.jpg)
+
+### Transmision rotacional a lineal 
+
 
