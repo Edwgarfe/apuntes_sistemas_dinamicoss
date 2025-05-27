@@ -398,5 +398,20 @@ $$ \frac{Y(s)}{U(s)}=\frac{c}{as+b} = \frac{\frac{c}{b}}{\frac{a}{b}s+1}$$
 >🔑 Se divide por b todos los terminos para no alterar la funcion y dejar la funcion de transferencia asi:
 
 ##### Constante de tiempo
+
 \tau  = \frac{a}{b} 
+
 ##### Ganancia estatica
+
+$$ K = \frac{c}{b}  $$
+
+##### Forma canonica sistema de primer orden
+
+$$ \frac{Y(s)}{U(s)}= \frac{K}{\tau S + 1}$$
+
+### Ejemplos
+
+![identificacion de forma canonica](/identificacion_forma_canonica.jpg)
+
+
+
