@@ -93,6 +93,7 @@ $$ q_{i} = A_{1}R_{1}\frac{dq_{1}}{dt}+q_{1} $$
 
 ### 📚 2 Ejercicio
 
+
 ##### Ecuaciones Fundamentales 
 $$ A_{1}\frac{dh_{1}}{dt}= q_{i}-q_{1} $$
 $$ A_{2}\frac{dh_{2}}{dt} = q_{1} - q_{2} $$
@@ -114,6 +115,9 @@ $$ \frac{dh_{1}}{dt} = R_{1}A_{2}\frac{dh_{2}^{2}}{dt^{2}}+(1+\frac{R_{1}}{R_{2}
 
 $$ A_{1}R_{1}A_{2}\frac{d^{2}h_{2}}{dt^{2}}+A_{1}(1+\frac{R_{1}}{R_{2}})\frac{dh_{2}}{dt} = qi - A_{2}\frac{dh_{2}}{dt}-h_{2}(\frac{1}{R_{2}}) $$
 
+##### Ecuacion diferencial 
+
+$$ A_{1}R_{1}A_{2}\frac{d^{2}h_{2}}{dt^{2}} + (A_{1} + \frac{A_{1}R_{1}}{R2}+A_2)\frac{dh_{2}}{dt} + \frac{1}{R_{2}}h_{2}=q_{i} $$
 
 
 
