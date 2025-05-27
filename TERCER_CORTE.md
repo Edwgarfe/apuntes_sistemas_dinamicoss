@@ -266,3 +266,34 @@ El motor de corriente continua, denominado también motor de corriente directa, 
 # Motor DC (corriente de campo)
 
 ### Circuito electromagnetico
+![Motor](/2motorDC.jpg)
+
+$$L_{c}\frac{di_{c}}{dt}+R_{c} i_{c}=v_{c}(t)$$
+
+$$I_{c}(s)=V_{c}(s)\frac{1}{(sL_{c}+R_{c})}$$
+
+
+El flujo Φ en el entrehierro es proporcional a la corriente de campo
+
+$$Φ=K_{c}I_{c}$$
+
+El torque desarrollado es proporcional al Φ y a la corriente de armadura
+
+$$T_{m}=K_{a}I_{a}(t)K_{c}i_{c}(t)$$
+
+$$T_{m}(s)=(K_{a}K_{c}I_{a})I_{c}(s)K_{m}I_{c}(s)$$
+
+El torque aplicado a la carga es el desarrollado por el motor menos la inercia de la carga
+
+$$T_{c}(s)=(T_{m}(s)-T_{p}(s)$$
+
+El torque aplicado (parte mecánica) a la carga se comporta como un Sistema rotacional clásico que considera la inercia y la fricción mecánica
+
+$$J\frac{d^2\theta }{dt^2}+b\frac{d\theta }{dt}+k\theta=\tau (t)$$
+
+$$O(s)=T_{c}(s)\frac{1}{(s^2J+bs)}$$
+
+## Motor DC (Corriente de campo)
+
+### La conexión de los modelos se realiza de la siguiente manera:
+
