@@ -461,4 +461,28 @@ $$ L^{-1}{ Y(s) } = y(t)= AK(1-e^{-\frac{t}{\tau}}) $$
 ![](/asumiendo_valores.jpg)
 ![](/constante_tiempo.jpg)
 
->🔑En las anteriores imagenes podemos ver como es el comportamiento del sistema aplicandole un escalon y en que punto se comienza a estabilizar, segun algunos libros y convenciones la estabilizacion de sistema comienza en 4tau donde ya se ha obtenido un 98.2% de la respuesta 
+>🔑En las anteriores imagenes podemos ver como es el comportamiento del sistema aplicandole un escalon y en que punto se comienza a estabilizar, segun algunos libros y convenciones la estabilizacion de sistema comienza en 4tau donde ya se ha obtenido un 98.2% de la respuesta
+
+### ubicacion de polos 
+
+$$ G(s)= \frac{K}{\tau s+1}  $$
+
+![](/ubicacion_polos.jpg)
+
+>🔑 Entre mas lejos este el polo del origen es mas rapido
+
+
+## Respuesta a la rampa unitaria 
+
+$$ $$ Y(s) = \frac{AK}{s^{2}(\tau s+1)} $$ $$
+
+Al desarrollar fracciones parciales 
+
+$$ Y(s)= AK(\frac{1}{s^{2}}-\frac{1 \tau}{s}+\frac{\tau^{2}}{\tau s +1}) $$
+
+$$ L^{-1}{ Y(s) } = y(t)= AK(t-\tau +\tau e^{-\frac{t}{\tau}}) $$
+
+![](/respuesta_rampa.jpg)
+![](/analisis_dinamico.jpg)
+
+>🔑 AK = pendiente que tendra la rampa
