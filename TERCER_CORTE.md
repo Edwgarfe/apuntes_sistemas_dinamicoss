@@ -254,3 +254,4 @@ Sistema mecanico
 
 
 #Representación en bloques
+[Bloque](/1 bloque.jpg)
