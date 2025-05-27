@@ -91,6 +91,22 @@ $$ A_{1}(R_{1}\frac{dq_{1}}{dt})= q_{i} - q_{1} $$
 
 $$ q_{i} = A_{1}R_{1}\frac{dq_{1}}{dt}+q_{1}
 
+### 📚 2 Ejercicio
+
+##### Ecuaciones Fundamentales 
+$$ A_{1}\frac{dh_{1}}{dt}= q_{i}-q_{1} $$
+$$ A_{2}\frac{dh_{2}}{dt} = q_{1} - q_{2} $$
+$$ q_{1} = \frac{h1-h2}{R1} $$
+$$ q_{2} = \frac{h_{2}}{R_{2}} $$
+
+##### Ecuacion 1
+$$ A_{1}\frac{dh_{1}}{dt} = q_{i}-\frac{h_{1}-h_{2}}{R_{1}} $$
+##### Ecuacion 2
+$$ A_{2}\frac{dh_{2}}{dt} = \frac{h_{1}-h_{2}}{R_{1}} - \frac{h_{2}}{R_{2}} $$
+
+##### De la ecuacion 2 despejamos h1:
+$$ A_{2}\frac{dh_{2}}{dt} = \frac{h_{1}}{R_{1}} - \frac{h_{2}}{R_{1}} -\frac{h_{2}}{R_{2}} $$
+
 
 
 
